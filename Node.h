@@ -7,9 +7,12 @@
 
 
 class Node {
-    int data;
-    Node *right;
+public:
     Node *left;
+    Node *right;
+    int data;
+    short height;
+
 };
 
 
